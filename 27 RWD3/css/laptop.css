@@ -1,0 +1,9 @@
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* .col{
+    float: left;
+    width: 50%;
+} */
+.col{
+    flex: 50%;
+}

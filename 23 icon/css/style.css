@@ -1,0 +1,17 @@
+.social-media{
+    background-color: antiquewhite;
+    padding: 50px 20px;
+    text-align: center;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.social-media .btn{
+    color: #3B5496;
+}
+.social-media .btn:hover{
+    background-color: gray;
+}

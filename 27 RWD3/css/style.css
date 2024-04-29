@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .col{
+    float: left;
+    width: 25%;
+    padding: 10px;
+} */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 25%;
+    padding: 10px ;
+}

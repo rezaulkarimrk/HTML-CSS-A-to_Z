@@ -1,0 +1,16 @@
+.menu{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    transition: 1s;
+}
+.menu a:hover{
+    background-color: aliceblue;
+    color: rgb(236, 48, 80);
+    border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+.grid-container{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    /* grid-template-rows: 100px; */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 20px 10px;
+    /* justify-content: center;
+    justify-content: start;
+    justify-content: end; */
+    align-content: center;
+}
+.grid-container div{
+    background-color: chocolate;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: 1/ span 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-row: 1/ span 3;
+}

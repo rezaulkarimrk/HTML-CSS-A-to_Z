@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+.skill-container{
+ background-color: gray;
+ width: 500px;
+ padding: 20px;
+ margin: 0 auto;
+ border-radius: 5px;
+}
+.skill-container li{
+    list-style: none;
+    margin: 50px auto;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+}
+.skill-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: #A8A7AC;
+    height: 25px;
+    width: 100%;
+    border-radius: 1000px;
+}
+.skill-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+
+    background-color: #F7F7F7;
+    height: 25px;
+    width: 0;
+    border-radius: 1000px;
+
+    /* animation-name: ; */
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    /* animation-iteration-count: 3; */
+    /* animation-direction: forward; */
+    animation-fill-mode: forwards;
+}
+
+.skill-container li.html::after{
+    animation-name: html;
+}
+@keyframes html {
+    to{
+        width: 90%;
+        background-color: orange;
+    }
+}
+.skill-container li.css::after{
+    animation-name: css;
+}
+@keyframes css {
+    to{
+        width: 80%;
+        background-color: orange;
+    }
+}
+
+.skill-container li.js::after{
+    animation-name: js;
+}
+@keyframes js {
+    to{
+        width: 90%;
+        background-color: orange;
+    }
+}
+.skill-container li.bs::after{
+    animation-name: bs;
+}
+@keyframes bs {
+    to{
+        width: 75%;
+        background-color: orange;
+    }
+}
+.skill-container li.vj::after{
+    animation-name: vj;
+}
+@keyframes vj {
+    to{
+        width: 95%;
+        background-color: orange;
+    }
+}
+.skill-container li.cplus::after{
+    animation-name: cplus;
+}
+@keyframes cplus {
+    to{
+        width: 85%;
+        background-color: orange;
+    }
+}

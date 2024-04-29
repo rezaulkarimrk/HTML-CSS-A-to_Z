@@ -1,0 +1,55 @@
+img{
+    max-width: 200px;
+    height: 200px;
+    border: 5px solid #000000;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50%;
+    animation-name: img-anim;
+    animation-duration: 3s;
+    transition: 2s;
+    position: relative;
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* img:hover{
+    animation-name: img-anim;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes img-anim {
+    0%{
+        border-color: orange;
+    }
+    50%{
+        border-color: hotpink;
+    }
+    100%{
+        border-color: pink;
+    }
+} */
+
+@keyframes img-anim {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 100px;
+        left: 100px;
+    }
+    50%{
+        top: 200px;
+        left: -100px;
+    }
+    75%{
+        top: 100px;
+        left: -100px;
+    }
+    100%{
+        top: 0;
+        left: 00;
+    }
+}

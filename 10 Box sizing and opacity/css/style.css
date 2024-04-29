@@ -1,0 +1,27 @@
+.section1, .section2{
+    color: white;
+}
+.section1{
+    background-color: #639e;
+    height: 300px;
+    width: 50%;
+    /* padding: 10px;
+    box-sizing: border-box ;
+    border: 3px solid gray; */
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.section2{
+    background-color: #639e63;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+.section3{
+    opacity: 0.5;
+}
+.section3:hover{
+    opacity: 1;
+}

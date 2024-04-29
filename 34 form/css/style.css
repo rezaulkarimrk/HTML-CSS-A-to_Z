@@ -1,0 +1,28 @@
+input[type=text]{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 20px 0;
+    border: 2px solid salmon;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#search{
+    background-image: url("images/search.png");
+    background-repeat: no-repeat;
+    background-position: 8px 12px;
+    /* background-image: url("search.png"); */
+    font-size: 1rem;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    width: 150px;
+    transition: 1s ease-in-out;
+}
+.search{
+    background-image: url("images/search.png");
+    background-repeat: no-repeat;
+}
+#search:focus{
+    width: 100%;
+}

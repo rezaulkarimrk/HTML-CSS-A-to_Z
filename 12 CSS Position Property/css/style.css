@@ -1,0 +1,35 @@
+.div1{
+    border: 1px solid green;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.div2{
+    border: 1px solid green;
+    padding-left: 5px;
+    position: relative;
+    left: 20px;
+}
+.navbar p{
+    border: 1px solid green;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.div3{
+    border: 1px solid orange;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    height: 200px;
+}
+.div4{
+    border: 2px solid pink;
+    padding: 5px;
+    position: absolute;
+    /* left: 100px;
+    top: 130px; */
+    right: 2px;
+    bottom: 2px;
+}

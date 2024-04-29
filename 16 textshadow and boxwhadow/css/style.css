@@ -1,0 +1,16 @@
+h1{
+    text-shadow: 5px 5px 5px pink;
+    text-shadow: 5px 5px 5px pink;
+}
+
+div p{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 5%;
+    box-shadow:inset 10px 15px 10px hotpink;
+    /* box-shadow: 10px 15px 10px hotpink; */
+}

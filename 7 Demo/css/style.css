@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+.section1{
+    height: 500px;
+    width: 500px;
+    overflow: scroll;
+    /* background-color: red; */
+    background-image: url("img/img1.png");
+    background-image: url("img/img1.png");
+    /* background-image: linear-gradient(to left, red, green); */
+    background-image: radial-gradient(circle, red, green, yellow, blue);
+}

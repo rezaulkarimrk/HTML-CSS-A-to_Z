@@ -1,0 +1,38 @@
+.navbar{
+    background-color: hotpink;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.dropdown-container{
+    display: inline-block;
+    position: relative;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.dropdown-content{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: hotpink;
+    text-align: left;
+    min-width: 100px;
+    display: none;
+
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: gray;
+}

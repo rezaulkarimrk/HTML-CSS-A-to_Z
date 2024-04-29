@@ -1,0 +1,19 @@
+.decoration{
+    /* text-decoration: line-through; */
+    /* display: none; */
+    /* text-indent: 50px; */
+    /* text-transform:capitalize; */
+    /* text-shadow: 1px 2px gray; */
+    word-spacing: 10px;
+    text-align: justify;
+
+
+}
+
+.radiation{
+    color: red;
+    /* display: none; */
+    font-size: 30px;
+    align-items: center;
+
+}

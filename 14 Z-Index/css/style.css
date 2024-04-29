@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: green;
+    --secondary-color: greenyellow;
+}
+div{
+    height: 250px;
+    width: 250px;
+}
+.div1{
+    background-color: var(--primary-color, green);
+    position: absolute;
+    z-index: 1;
+}
+.div2{
+    background-color: var(--secondary-color, yellow);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+    :root{
+        --primary-color: black;
+        --secondary-color: pink;
+    }
+}

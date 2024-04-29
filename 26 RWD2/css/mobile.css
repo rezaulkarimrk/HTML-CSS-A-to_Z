@@ -1,0 +1,13 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+.menu{
+    flex-direction: column;
+    padding: 10px;
+
+}
+.menu a{
+    background-color: indigo;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}

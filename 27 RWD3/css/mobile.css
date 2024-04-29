@@ -1,0 +1,13 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    body{
+        background-color: red;
+    }
+} */
+/* .col{
+    width: 100%;
+} */
+
+.col{
+    flex: 100%;
+}
